@@ -1,0 +1,251 @@
+﻿
+.width-40 {
+    width: 40% !important;
+    float: right;
+}
+.width-50 {
+    width: 50% !important;
+    float: right;
+}
+.width-60 {
+    width: 60% !important;
+    float: right;
+}
+.cookieinfo-close{
+    float:left !important;
+}
+.customSearchIcon {
+    right: inherit !important;
+    left: -12px !important;
+}
+.side-border:last-child {
+    border-left: 0px solid #aaaaaa;
+}
+.rep_category {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.leftTable th, .leftTable td {
+    text-align: right;
+}
+li.clr-all {
+    text-align: left;
+}
+.MyReservationTable th, .MyReservationTable td {
+    text-align: right !important;
+}
+.search_div {
+    float: right;
+    text-align: right;
+}
+ul.nav-list li ul {
+    margin: 0 25px 0 0px;
+}
+ul.nav-list li a {
+    padding: 8px 22px 8px 0px;
+}
+.float-right {
+    float: left;
+}
+
+@media (max-width:1440px) {
+    .navigator {
+        right: 15px;
+    }
+
+        .navigator li ::after {
+            bottom: 10px
+        }
+
+        .navigator li a {
+            font-size: 0px;
+        }
+}
+@media (max-height:768px) {
+    .main-header .slider-wrapper .owl-carousel .item .caption {
+        top: 105px;
+    }
+
+    .main-header .slider-wrapper .actions {
+        bottom: 30px
+    }
+}
+
+
+/*mousa*/
+.owl-carousel.show-nav-hover .owl-nav {
+}
+
+    .owl-carousel.show-nav-hover .owl-nav .owl-prev {
+        right: 30px;
+        left: auto;
+    }
+
+        .owl-carousel.show-nav-hover .owl-nav .owl-prev::before {
+            content: "\f054"
+        }
+
+    .owl-carousel.show-nav-hover .owl-nav .owl-next::before {
+        content: "\f053"
+    }
+
+.owl-carousel.owl-theme.manual .owl-item div.align-items-end {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    left: -45px;
+    right: auto;
+}
+
+    .owl-carousel .owl-nav button.owl-next:before {
+        content: "\f053";
+        left: 0px;
+    }
+
+/*.owl-carousel .owl-nav button.owl-prev {
+    right: -45px;
+    left: auto;
+}
+
+    .owl-carousel .owl-nav button.owl-prev:before {
+        content: "\f054";
+        left: 0px;
+    }*/
+
+.fa-angle-right:before {
+    content: "\f104";
+}
+
+.fa-angle-left:before {
+    content: "\f105";
+}
+
+.pager .next > a, .pager .next > span {
+    float: left;
+}
+/*
+@media(max-width:991.98px) {
+    left: 0px;
+    right:auto;
+}
+*/
+@media(max-width:574.98px) {
+    .home-page .sap-search .control_field_label {
+        font-size: 12px;
+    }
+
+    .home-page .sap-search .control_options {
+        right: 0;
+        left: auto !important;
+    }
+}
+.pager .previous > a, .pager .previous > span {
+    float: right;
+}
+/*mousa end*/
+
+.custom_hasDatepicker .hasDatepicker {
+    float: right;
+}
+
+
+
+.passwordEye {
+    left: inherit;
+    right: 93%;
+}
+.passwordEye2 {
+    margin-left: 10px;
+    float: left;
+}
+.checkbox-custom label {
+    text-align: right;
+}
+#gridContentAjax_payments .checkbox-custom label + label.error {
+    text-align: right;
+    margin-top: 5px;
+    position: absolute;
+}
+    #gridContentAjax_payments .checkbox-custom label + label.error:before {
+        margin: 0px;
+        padding: 0px;
+        height: 0px;
+        width: 0px;
+    }
+#gridContentAjax_payments .table-responsive.px-1 {
+    overflow: hidden;
+}
+.pager .next > a {
+    float: left !important;
+}
+
+.pager .previous > a {
+    float: right !important;
+}
+
+.owl-carousel .owl-item {
+    float: right !important;
+}
+.offers .owl-stage-outer {
+    direction: rtl !important;
+}
+.owl-carousel.owl-rtl {
+    direction: rtl !important;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    left: 20px !important;
+    right: auto !important;
+}
+.owl-carousel .owl-nav button.owl-prev {
+    left: auto !important;
+    right: 20px !important;
+}
+.owl-carousel .owl-nav button.owl-next:before {
+    content: "\f053" !important;
+}
+.owl-carousel .owl-nav button.owl-prev:before {
+    content: "\f054" !important;
+}
+div#datepickerTo {
+    float: left;
+}
+.form-two-columns .form-group {
+    float: right;
+}
+.modal-footer > :not(:last-child) {
+    margin-right: 0.25rem !important;
+    margin-left: 0.25rem !important;
+}
+.list-inline-item:not(:last-child) {
+    margin-left: 0.5rem;
+}
+.div_drpFilterOffers .select2 {
+    right: 155px;
+}
+.mfp-counter {
+    direction: ltr !important;
+}
+.ui-datepicker table {
+    font-size: 10px !important;
+}
+.station-control-list_item_link {
+    text-align: right;
+}
+
+
+
+@media (max-width: 961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .home-page .sap-search .control_options {
+        right: 0px !important;
+    }
+    .div_drpFilterOffers .select2 {
+        right: 15% !important;
+    }
+}
+
+
+
+

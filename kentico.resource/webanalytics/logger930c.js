@@ -1,0 +1,14 @@
+(function (url, culture, status, value)
+{
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.open("POST", url, !0);
+    xmlhttp.setRequestHeader("Content-type", "application/json; charset=utf-8");
+    xmlhttp.send(JSON.stringify({
+        "url": window.location.href,
+        "referrer": document.referrer,
+        "userAgent": navigator.userAgent,
+        "culture": culture,
+        "status": status,
+        "value": value
+    }));
+})('/kentico.webanalytics/logger/loganalytics', 'ar-SA', 200, 0);
