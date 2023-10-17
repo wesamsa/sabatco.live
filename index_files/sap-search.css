@@ -1,0 +1,1345 @@
+.home-page .sap-search_action,
+.home-page .sap-search_date-control,
+.home-page .sap-search_pax-control,
+.home-page .sap-search_promocode-control,
+.home-page .sap-search_station-control {
+    padding: 0 1.25rem;
+    border-top: 1px solid #fff;
+}
+
+.buses-type {
+    border-top: none;
+    border-radius: 0 15px 0 0;
+}
+
+.buses-type .control_field_label,
+.buses-no .control_field_label {
+    display: block !important;
+}
+
+.rent-date .control_field_label {
+    color: #766e64 !important;
+}
+
+.form-check-input:checked {
+    background-color: #a57c35;
+    border-color: #a57c35;
+}
+
+.sap-search_date-control,
+.sap-search_pax-control,
+.sap-search_station-control {
+    box-sizing: border-box;
+}
+
+.buses-types-tabs .tabs-navigation .nav-tabs>li .nav-link {
+    padding: 10px;
+}
+
+.buses-types-tabs .tabs-navigation .nav-tabs>li .nav-link.active:before {
+    content: "";
+}
+
+.buses-types-tabs .nav-tabs li .nav-link {
+    color: #766e64 !important;
+}
+
+.buses-types-tabs .nav-tabs .nav-item.show .nav-link,
+.buses-types-tabs .nav-tabs .nav-link.active,
+.buses-types-tabs .nav-tabs li .nav-link:hover {
+    color: #a57c35 !important;
+}
+
+.buses-types-tabs .nav-tabs .nav-link.active {
+    border-right: none !important;
+}
+
+.buses-types-tabs .nav-tabs li .nav-link,
+.buses-types-tabs .nav-tabs li .nav-link:hover {
+    border-bottom: none !important;
+}
+
+.buses-types-tabs .control_options_selector_action_button {
+    min-width: 6rem !important;
+}
+
+@media (min-width: 62rem) {
+
+    .sap-search_action,
+    .sap-search_date-control,
+    .sap-search_pax-control,
+    .sap-search_station-control {
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+
+    .home-page .sap-search .date-control,
+    .home-page .sap-search .pax-control,
+    .home-page .sap-search .station-control {
+        position: static;
+    }
+
+    .home-page .search-date-opened .sap-search_date-control,
+    .home-page .search-pax-opened .sap-search_pax-control,
+    .home-page .search-station-opened .sap-search_station-control {
+        background: #ffffff !important;
+    }
+
+    .home-page.search-open .sap-search .control_options {
+        -webkit-animation: 0.24s forwards searchOptionsFromLeft;
+        animation: 0.24s forwards searchOptionsFromLeft;
+    }
+
+    .home-page .sap-search-multicity .sap-search_station-control .control_options,
+    .home-page .sap-search_station-control .control_options,
+    .home-page .search-station-opened .sap-search_station-control .control_options {
+        width: 15.875rem;
+        z-index: 9999;
+    }
+
+    .home-page .sap-search .control_options {
+        top: 0;
+        left: 70%;
+    }
+
+    .sap-search .control_options {
+        position: absolute;
+        height: auto;
+        flex: 1 1 100%;
+        width: max-content;
+        width: -moz-max-content;
+    }
+
+    .sap-search .control_options_inner {
+        border-radius: 14px;
+    }
+
+    .sap-search_station-control .control_options_inner {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .sap-search_date-control .sap-search_journey-type-control {
+        order: 2;
+        margin: 0.625rem 0 1.25rem;
+    }
+
+    .sap-search_date-control .control_options_scroll {
+        order: 3;
+    }
+
+    .bus-types {
+        min-width: 40rem;
+    }
+}
+
+.sap-search .control_options {
+    box-sizing: border-box;
+}
+
+.sap-search .control_options_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.25rem;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 7px 0 rgb(142 142 147 / 34%);
+}
+
+.sap-search .control_options_close_button {
+    right: 1.25rem;
+}
+
+.sap-search .control_options_close_button {
+    position: absolute;
+    top: 0.6rem;
+    right: 0.6rem;
+    padding: 0.125rem 0.25rem;
+    background: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.sap-search .control_options_close_button .button_label {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.sap-search .control_options_close_button::before {
+    content: "\f057";
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    line-height: 1;
+    color: #a57c35;
+    font-size: 1.8rem;
+}
+
+.station-control {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.control_fields,
+.control_form,
+.date-control,
+.pax-control,
+.station-control {
+    height: 100%;
+}
+
+.home-page .sap-search .control_fields,
+.home-page .sap-search .pax-control .control_field {
+    min-height: 3.5rem;
+}
+
+.control_fields {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sap-search .control_fields {
+    align-items: center;
+}
+
+.sap-search .control_field-outbound {
+    padding-right: 1.875rem;
+}
+
+.control_field-inbound.control_field,
+.control_field-outbound.control_field {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.home-page .sap-search .control_field {
+    height: auto;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.control_field {
+    box-sizing: border-box;
+}
+
+.control_field_inner {
+    height: 100%;
+}
+
+.sap-search .control_field_inner {
+    width: 100%;
+}
+
+.control_field-outbound .control_field_button,
+.control_field-outbound .control_field_input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.home-page .sap-search .control_field_button,
+.home-page .sap-search .control_field_input {
+    font-size: 1.25rem;
+    color: #a57c35 !important;
+}
+
+.home-page .sap-search .control_field_button {
+    color: #a57c35 !important;
+}
+
+.home-page .sap-search .control_field_label {
+    display: none;
+    margin-bottom: 0.1rem;
+}
+
+.sap-search .control_field_button,
+.sap-search .control_field_input {
+    width: 100%;
+    padding: 0;
+    border: 0;
+    line-height: 1.2;
+    border-radius: 0;
+    text-align: left;
+    background: 0 0;
+}
+
+.control_field-swap {
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    bottom: auto;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.control_field-swap_button[disabled] {
+    color: #a57c35;
+    background: url("../img/icons/icon-arrow.png") no-repeat;
+    width: 36px;
+    height: 36px;
+    cursor: default;
+    border-color: transparent;
+}
+
+.control_field-swap_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+    color: #a57c35;
+    background: 0 0;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+@media (min-width: 40rem) {
+    .control_field_button_value {
+        flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+.control_field_button_value {
+    width: 100%;
+}
+
+.sap-search .control_field_button_value {
+    /* display: flex; */
+    /* display: flex; */
+    flex-wrap: wrap;
+}
+
+.sap-search .control_field-inbound {
+    padding-left: 1.875rem;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus,
+select:focus,
+.button:focus,
+[role="button"]:focus {
+    outline: 1px dotted rgba(0, 0, 0, 0);
+    outline-offset: 0;
+}
+
+::placeholder {
+    color: #a57c35 !important;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #a57c35 !important;
+}
+
+::-ms-input-placeholder {
+    color: #a57c35 !important;
+}
+
+.sap-search .control_label {
+    display: none;
+}
+
+.sap-search .control_field_button_value {
+    flex-wrap: wrap !important;
+}
+
+.home-page .sap-search .control_field.has-value .control_field_label,
+.home-page .sap-search .pax-control .control_field_label {
+    display: block;
+    color: #a57c35;
+}
+
+.home-page .sap-search .control_value-day,
+.home-page .sap-search .control_value-month,
+.home-page .sap-search .control_value-year {
+    font-weight: 700;
+    margin-bottom: 0.375rem;
+}
+
+.sap-search .control_value-month {
+    margin: 0 0.25rem;
+}
+
+.home-page .sap-search .control_value-week {
+    font-size: 1rem;
+    flex: 0 0 100%;
+}
+
+.control_options_scroll::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+.control_options_scroll::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.control_options_scroll::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+.control_options_scroll::-webkit-scrollbar-thumb {
+    height: 40px;
+    border: 4px solid transparent;
+    background-clip: padding-box;
+    border-radius: 20px;
+    background-color: #c7c7cc;
+}
+
+.sap-search_station-control .control_options_title {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #fff;
+
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+}
+
+.sap-search .control_options_title {
+    font-size: 1.5rem;
+    color: #766e64;
+    line-height: 1.1;
+    margin-bottom: 0.625rem;
+}
+
+.station-control-list_item_link {
+    width: 100%;
+    text-align: left;
+    padding: 0.375rem 1.25rem;
+    margin: 0.125rem 0;
+    background: #fff;
+    cursor: pointer;
+    font-size: 1.25rem;
+    color: #a57c35;
+    display: flex;
+    justify-content: space-between;
+    border-color: transparent;
+}
+
+.station-control-list_list {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.station-control-list_item_link:hover {
+    color: #fff;
+}
+
+.station-control-list_item_link.active,
+.station-control-list_item_link:hover {
+    background: #a57c35;
+}
+
+.sap-search_station-control .control_options_inner {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.control_options_scroll {
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
+    max-height: 21.25rem;
+    flex: 1 1 auto;
+    scrollbar-width: thin;
+}
+
+.home-page .sap-search .control_field_message {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 44%;
+    padding: 0.25rem 0;
+}
+
+.sap-search .control_field_message {
+    font-size: 0.75rem;
+    color: #d34727;
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.home-page .sap-search .control_field_message::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -0.0625rem;
+    height: 0.0625rem;
+    background: #d34727;
+}
+
+.home-page .sap-search .control_field-inbound .control_field_message {
+    left: 50%;
+    padding-left: 1.875rem;
+}
+
+/* End stations */
+
+/* choose date */
+
+@media (min-width: 62rem) {
+    .choose-date {
+        width: -webkit-fill-available !important;
+    }
+}
+
+@media (min-width: 30rem) {
+    .sap-search .journey-type-control {
+        max-width: 23.375rem;
+    }
+}
+
+.sap-search .journey-type-control {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.journey-type-switch_background {
+    z-index: 1;
+    position: absolute;
+    display: block;
+    padding: 0;
+    top: 7%;
+    left: 0.1875rem;
+    height: calc(100% - (7% * 2));
+    transition: all 0.34s ease-out;
+    background-color: #a57c35;
+    border-radius: 20px;
+}
+
+.journey-type-switch {
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    min-width: 12.5rem;
+    background-color: #fff;
+    box-shadow: 0 0 6px rgb(142 142 147 / 50%);
+    border-radius: 20px;
+}
+
+.journey-type-switch-3 .journey-type-switch_option,
+.journey-type-switch-3 .journey-type-switch_option:nth-child(1),
+.journey-type-switch-3 .journey-type-switch_option:nth-child(1).is-checked~.journey-type-switch_background,
+.journey-type-switch-3 .journey-type-switch_option:nth-child(2) {
+    width: 33.333%;
+}
+
+.journey-type-switch_option {
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.journey-type-switch_option input {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.journey-type-switch_option.is-checked .journey-type-switch_label {
+    color: #fff;
+    font-weight: 500;
+    background: #a57c35;
+}
+
+.journey-type-switch_option .journey-type-switch_label {
+    border-radius: 20px;
+}
+
+.journey-type-switch_label {
+    font-size: 1rem;
+    z-index: 2;
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #a57c35;
+    text-align: center;
+    font-weight: 400;
+    padding: 0.625rem 0.25rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.journey-type-switch-3 .journey-type-switch_option:nth-child(3) {
+    width: 33.333%;
+}
+
+.datepicker[_ngcontent-cqp-c8] {
+    display: block;
+    clear: both;
+    border-radius: 0;
+    border: none;
+}
+
+.ngb-dp-header {
+    margin-bottom: -2.5rem;
+    padding: 0 0.375rem;
+    border-radius: 0;
+    border-bottom: 0;
+}
+
+ngb-datepicker-navigation {
+    justify-content: space-between;
+    width: 100%;
+}
+
+ngb-datepicker-navigation {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.ngb-dp-arrow.right {
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.ngb-dp-arrow {
+    flex: 0 0 auto;
+    width: auto;
+    height: auto;
+
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0;
+}
+
+.ngb-dp-arrow-btn[disabled] {
+    opacity: 0;
+    pointer-events: none;
+    cursor: default;
+}
+
+.ngb-dp-arrow-btn::before {
+    content: "\f054";
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    line-height: 1;
+    color: #a57c35;
+}
+
+.ngb-dp-arrow.right .ngb-dp-arrow-btn::before {
+    content: ">";
+}
+
+.ngb-dp-arrow-btn[disabled]::before {
+    color: #5f5f5f;
+}
+
+.ngb-dp-navigation-chevron {
+    border-style: solid;
+    border-width: 0.2em 0.2em 0 0;
+    display: inline-block;
+    width: 0.75em;
+    height: 0.75em;
+    margin-left: 0.25em;
+    margin-right: 0.15em;
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+.ngb-dp-navigation-chevron {
+    display: none;
+}
+
+.ngb-dp-navigation-select {
+    flex: 1 1 auto;
+    justify-content: center;
+    display: none;
+}
+
+ngb-datepicker-navigation-select>.custom-select {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0 0.5rem;
+    font-size: 0.875rem;
+    height: 1.85rem;
+}
+
+.ngb-dp-navigation-select>.custom-select {
+    font-size: 1.125rem;
+
+    height: auto;
+    color: #a57c35;
+    font-weight: 400;
+    padding: 0 0.1875rem 1.125rem;
+    background: 0 0;
+    flex: 0 0 auto;
+    pointer-events: none;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.ngb-dp-months {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.home-page .ngb-dp-month:first-child {
+    padding-left: 0;
+}
+
+.ngb-dp-month {
+    flex: 1 1 50%;
+    padding: 0 1%;
+    box-sizing: border-box;
+    margin-top: 0.875rem;
+    width: 100%;
+    pointer-events: none;
+}
+
+.ngb-dp-month-name {
+    font-size: 1.25rem;
+    line-height: 1.1;
+    color: #a57c35;
+    margin-bottom: 0.625rem;
+    height: 2rem;
+    text-align: center;
+}
+
+ngb-datepicker-month-view {
+    display: block;
+}
+
+.ngb-dp-month+.ngb-dp-month .ngb-dp-month-name,
+.ngb-dp-month+.ngb-dp-month .ngb-dp-week,
+.ngb-dp-month:first-child .ngb-dp-week {
+    padding-left: 0;
+}
+
+.ngb-dp-week {
+    border-radius: 0;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.ngb-dp-weekdays {
+    border: 0;
+}
+
+.ngb-dp-weekday {
+    font-size: 1.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    font-weight: 700;
+    color: #a57c35;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0 0 0.9375rem;
+}
+
+.ngb-dp-day,
+.ngb-dp-week-number,
+.ngb-dp-weekday {
+    width: calc(100% / 7);
+    text-align: center;
+    font-style: normal;
+}
+
+.ngb-dp-day.disabled,
+.ngb-dp-day.disabled .custom-day.available {
+    color: rgba(199, 199, 204, 0.9);
+    font-weight: 400;
+    cursor: default;
+    pointer-events: none;
+}
+
+.ngb-dp-day {
+    outline: 0;
+    height: 2rem;
+}
+
+.ngb-dp-day,
+.ngb-dp-week-number {
+    margin: 0.125rem 0;
+}
+
+.custom-day {
+    font-size: 1.125rem;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: #a57c35;
+    cursor: default;
+}
+
+.ngb-dp-today .custom-day span {
+    border-radius: 50%;
+    background: 0 0;
+    box-sizing: border-box;
+    border: 0 solid #41695b;
+}
+
+.custom-day.selected::before {
+    background-color: #41695b;
+}
+
+.custom-day.arrival,
+.custom-day.departure,
+.custom-day.selected {
+    z-index: 2;
+    color: #ffffff;
+}
+
+.custom-day.available {
+    cursor: pointer;
+}
+
+.custom-day::before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 2rem;
+    height: 2rem;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.ngb-dp-month .ngb-dp-week:last-child {
+    padding-bottom: 0;
+}
+
+.ngb-dp-arrow-btn.btn-link {
+    text-decoration: none;
+    line-height: 1;
+}
+
+.ngb-dp-arrow-btn {
+    font-size: 1.625rem;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    top: -0.125rem;
+}
+
+.sap-search_date-control .control_options_selector_action {
+    display: none !important;
+}
+
+.sap-search .control_options.choose-date {
+    width: 92%;
+}
+
+@media (min-width: 80rem) {
+
+    body.home-page .sap-search .date-control .ngb-dp-month:nth-child(2),
+    body.page-mmb-change-flight .sap-search .date-control .ngb-dp-month:nth-child(2),
+    body.page-search .sap-search .date-control .ngb-dp-month:nth-child(2) {
+        display: block;
+    }
+}
+
+/* End choose date */
+
+/* passengers */
+.home-page .sap-search .paxtype_value_total {
+    display: none;
+}
+
+.paxtype_label {
+    padding-left: 0.125rem;
+}
+
+.paxtype_group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.paxtype_group {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.paxtype::after {
+    content: ",";
+    margin-right: 0.375rem;
+}
+
+.paxtype:last-child::after {
+    content: "";
+}
+
+.pax-control_selector {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.pax-control_selector_item {
+    display: flex;
+    padding: 0.75rem 0;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.pax-control_selector_item_label {
+    font-size: 1.25rem;
+    position: relative;
+    flex: 1 1 auto;
+    margin-right: 1.25rem;
+    font-weight: 500;
+    color: #a57c35;
+}
+
+.pax-control_selector_item_label_info {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #766e64;
+}
+
+.pax-control_selector-container {
+    min-width: -moz-max-content;
+}
+
+.ui-num-ud {
+    display: flex;
+    align-items: center;
+}
+
+.ui-num-ud_button {
+    font-size: 1.375rem;
+    z-index: 2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+    color: #fff;
+    line-height: 1;
+    border-radius: 50%;
+    background: #a57c35;
+    box-shadow: inset 0 0 0 0 #a57c35;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+
+.ui-num-ud_button.minus::before {
+    content: "\f146";
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+}
+
+.hide-visually,
+.interactive-search .ui-input-multiline label {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.ui-num-ud_input {
+    min-width: 4.125rem;
+    max-width: 4.125rem;
+    text-align: center;
+    box-sizing: border-box;
+    background: 0 0;
+}
+
+.pax-control_selector_item .pax-control_selector_item_control .ui-num-ud_input input {
+    font-size: 1.125rem;
+}
+
+.ui-num-ud_input input[readonly] {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ui-num-ud_input input {
+    font-size: 1.5rem;
+    color: #a57c35;
+    width: 100%;
+    height: 100%;
+    font-weight: lighter;
+    text-align: center;
+    background: 0 0;
+    border: 0 solid transparent;
+}
+
+.ui-num-ud_button {
+    border: none;
+    background: none;
+    color: #a57c35;
+    font-size: 2.2em;
+}
+
+.ui-num-ud_button:hover {
+    color: #41695b;
+}
+
+.ui-num-ud_button.plus::before {
+    content: "\f0fe";
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+}
+
+.ui-num-ud_button.disabled:hover {
+    color: #c7c7cc;
+}
+
+.ui-num-ud_button.disabled {
+    cursor: default;
+    color: #c7c7cc;
+}
+
+.sap-search .control_options_selector_action {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0 0;
+}
+
+.sap-search .control_options_selector_action_button {
+    min-width: 12.5rem;
+    margin: auto;
+    color: #fff;
+
+    background-color: #a57c35;
+    border-radius: 8px;
+
+    font-size: 1rem;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1;
+    padding: 0.625rem 1.5rem;
+
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: all 0.06s linear;
+}
+
+.sap-search .control_options_selector_action_button:hover {
+    border-color: #41695b;
+    background-color: #41695b;
+}
+
+/* End passengers */
+
+/* promocode */
+
+.home-page .sap-search_promocode-control {
+    min-height: 4rem;
+    box-sizing: border-box;
+}
+
+.sap-search .sap-search_promocode-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sap-search .sap-search_promocode-control .promocode-control_link {
+    color: #a57c35;
+    padding-bottom: 0.75rem;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 200;
+
+    padding: 0;
+    font-size: 1.25em;
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.sap-search .sap-search_promocode-control .promocode-control .control_form {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.sap-search .sap-search_promocode-control .ui-input-container {
+    min-height: 1.875rem;
+}
+
+.ui-input-container.has-placeholder .ui-label,
+.ui-input-container.is-focused .ui-label,
+.ui-input-container.has-value .ui-label {
+    font-size: 0.625rem;
+    top: 0.25rem;
+    left: 0.0625rem;
+    right: 0.0625rem;
+}
+
+.sap-search .sap-search_promocode-control .ui-input_wrap {
+    display: flex;
+    min-width: 10.3125rem;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.sap-search .sap-search_promocode-control .ui-input {
+    border-radius: 1.875rem;
+    height: 1.875rem;
+    padding: 0 0.9375rem;
+    border: none;
+    box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+}
+
+.sap-search .sap-search_promocode-control .ui-input::placeholder {
+    color: #766e64 !important;
+    opacity: 1;
+}
+
+.promocode_cancel {
+    margin-top: -5px;
+}
+
+.sap-search .sap-search_promocode-control .promocode_button_cancel {
+    border: none;
+    background: transparent;
+}
+
+.sap-search .sap-search_promocode-control .promocode_button_cancel::before {
+    content: "X";
+    display: inline-block;
+    line-height: 1;
+    color: #a57c35;
+    font-size: 1.3rem;
+    font-weight: 500;
+    vertical-align: middle;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* End promocode */
+
+/* Action Button*/
+
+.sap-search_action_button {
+    width: 85%;
+    min-height: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    background-color: #41695b;
+
+    font-size: 1rem;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1;
+    padding: 0.625rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: all 0.06s linear;
+}
+
+.sap-search_action_button:focus,
+.sap-search_action_button:hover {
+    background-color: #558071;
+}
+
+.home-page .sap-search_action {
+    border-top: 0;
+    padding-bottom: 1rem !important;
+    text-align: center;
+}
+
+.travel-results .sap-search .control_field_input,
+.travel-results .sap-search .sap-search_date-control .control_field_inner,
+.travel-results .sap-search .sap-search_pax-control .control_field_button {
+    border-bottom: 1px solid #766e64;
+}
+
+.travel-results .control_value-week {
+    display: none;
+}
+
+.travel-results .sap-search .control_options {
+    top: auto;
+    left: auto;
+    z-index: 9999;
+}
+
+/* End Action Button*/
+
+/* Mobile custom styles max-width:575px */
+
+@media (max-width: 575px) {
+    .sap-search .control_field-outbound {
+        padding-right: 0.5rem;
+    }
+
+    .sap-search .control_field-inbound {
+        padding-left: 1.4rem;
+    }
+
+    .home-page .sap-search .control_field_button,
+    .home-page .sap-search .control_field_input {
+        font-size: 1rem;
+    }
+
+    .home-page .sap-search .control_field {
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+    }
+
+    .home-page .sap-search_action,
+    .home-page .sap-search_date-control,
+    .home-page .sap-search_pax-control,
+    .home-page .sap-search_promocode-control,
+    .home-page .sap-search_station-control {
+        padding: 0 0.9rem;
+    }
+
+    .home-page .sap-search .control_fields,
+    .home-page .sap-search .pax-control .control_field {
+        min-height: 3rem;
+    }
+
+    .home-page .sap-search_promocode-control {
+        min-height: 3rem;
+    }
+
+    .home-page .sap-search .control_field_label {
+        margin-bottom: 0.15rem;
+    }
+}
+
+/* End Mobile custom styles max-width:575px */
+
+/* Mobile custom styles */
+@media (max-width: 61.9375rem) {
+
+    .sap-search .stations,
+    .sap-search .rentBusCities,
+    .sap-search .choose-date {
+        z-index: 99999;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+        background: #fff;
+        box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+    }
+
+    .sap-search .control_options.choose-date {
+        width: 100%;
+    }
+
+
+
+    /* Fix Home Search Trips Tabs */
+
+    .sap-booking .tabs-navigation .nav-tabs>li .nav-link.active:before {
+        content: "";
+    }
+
+    .sap-booking .tabs-navigation .nav-tabs li .nav-link {
+        border-radius: 10px 10px 0 0 !important;
+        border: none !important;
+
+        height: 75px;
+    }
+
+    .sap-booking .tabs-navigation .nav-tabs {
+        border-bottom: none;
+    }
+
+    .sap-booking .tabs-navigation .nav-tabs>li .nav-link {
+        padding: 1px 10px 5px;
+    }
+
+    .sap-booking .tabs-navigation .nav-tabs li .nav-link.active {
+        border-top: 3px solid #ffffff !important;
+    }
+
+    .tabs.rentBusTabs {
+        padding-top: 1em;
+        margin-top: auto
+    }
+
+    .tabs.rentBusTabs .nav-tabs li .nav-link {
+        border-radius: 5px 5px 0 0 !important;
+        text-align: center;
+        font-size: 1em;
+        height: 35px;
+    }
+
+    .tabs.rentBusTabs .nav-tabs li .nav-link.active {
+        border-top: none !important;
+    }
+}
+
+@media (max-width:280px) {
+    .sap-booking .tabs-navigation .nav-tabs li .nav-link {        
+        height: 105px;
+        width:82px;
+    }
+
+    .tabs.rentBusTabs .nav-tabs li .nav-link {        
+        height: 35px;
+        width:120px;
+    }
+
+    .rentBusTabs .nav-tabs .nav-item {
+        width: auto !important;
+    }
+}
+
+/* End Mobile custom styles */

@@ -1,0 +1,533 @@
+/* General RTL Styles */
+html, body {
+    direction: rtl;
+}
+ol, ul {
+    padding-left: inherit;
+    padding-right: 2rem;
+}
+
+
+.me-1 {
+    margin-right: inherit!important;
+    margin-left: 0.25rem!important;
+}
+
+.me-3 {
+    margin-left: 1rem!important;
+    margin-right: inherit!important;
+}
+
+.float-end {
+    float: left!important;
+}
+
+.float-start {
+    float: right!important;
+}
+
+.text-end {
+    text-align: left!important;
+}
+
+.text-start {
+    text-align: right!important;
+}
+
+aside ul.nav-list > li > a {    
+    padding: 8px 22px 8px 0;
+}
+
+ul.nav-list li a:before {     
+    content: "\f053";     
+    left: inherit;
+    right: 5px;
+}
+
+/* Forms RTL Styles */
+
+.form-check .form-check-input {
+    float: right;
+    margin-left:inherit;
+    margin-right: -1.5em;
+}
+
+.form-select {    
+    padding: 0.375rem 0.75rem 0.375rem 2.25rem;
+    background-position: left 0.75rem center;    
+}
+
+.input-group-text {     
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.checkbox-custom {
+    position: relative;
+    padding: 0 25px 0 0;
+   
+}
+
+.checkbox-custom label:before {     
+    left: inherit;
+    right:0;
+}
+
+.checkbox-custom input[type="checkbox"] {    
+    left: inherit;
+    right:3px;
+}
+
+.checkbox-custom input[type="checkbox"]:checked + label:after {    
+    left: inherit;
+    right: -1px;
+     
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {   
+    text-align: right;
+}
+
+.select2-container--bootstrap .select2-selection--single .select2-selection__arrow b {     
+    left: inherit;
+    margin-left: inherit;
+
+    right: 0;
+    margin-right: -4px;    
+     
+}
+
+.select2-container--bootstrap .select2-selection--single .select2-selection__arrow {    
+    right: inherit;
+    left: 12px;    
+}
+
+.select2-container--bootstrap .select2-selection--single {    
+    padding: 7px 12px 7px 24px;    
+}
+
+select:not([multiple]) {    
+    background-position: 10px;     
+    padding-right: 1em;
+    padding-left: 2em;
+}
+
+.form-switch {
+    padding-left: inherit;
+    padding-right: 2.5em;
+}
+
+.form-check {     
+    padding-left: inherit;
+    padding-right: 1.5em;    
+}
+
+/* Header RTL Styles */
+.dropdown-menu  {
+    text-align: right !important;
+}
+
+#header .header-nav-features {          
+    padding-left: 5px;   
+}
+
+#header .header-social-icons {    
+    margin-right: inherit;
+    margin-left: 1rem;
+}
+
+#header .header-nav-features:before, #header .header-nav-features:after {
+    background:transparent;
+}
+
+#searchbox {     
+    right: inherit;
+    left: 40px;     
+}
+
+.passwordEye {
+    right: 93%;
+    left: inherit;
+}
+
+@media (min-width: 992px) {
+    #header .header-nav-main nav > ul > li.dropdown-mega > .dropdown-menu {
+        left: 0 !important;
+        right: auto !important;
+    }
+}
+
+
+/* Sap Search  RTL Styles */
+@media (min-width: 992px) {
+    .sap-booking {
+        left: inherit;
+        right: 13%;
+    }
+}
+
+.sap-booking .tabs-left .tab-content {
+    border-radius: 15px 0 0 15px;    
+}
+
+.sap-booking .tabs-navigation .nav-tabs li:first-child .nav-link {
+    border-radius: 0 15px 0 0;
+}
+
+.sap-booking .tabs-navigation .nav-tabs li:last-child .nav-link {
+    border-radius: 0 0 15px 0;    
+}
+
+@media (min-width: 62rem) {
+    .home-page .sap-search .control_options {     
+        left: inherit;
+        right: 70%;
+    }
+}
+
+#urban-rent-home .control_options {     
+    left: inherit;
+    right: 85%;
+}
+
+.sap-search .control_options_close_button {     
+    right: auto;
+    left: 0.6rem;  
+}
+
+.sap-search .control_field_button, 
+.sap-search .control_field_input {    
+    text-align: right;    
+}
+
+.sap-search .control_field-inbound {
+    padding-left: inherit;
+    padding-right: 1.875rem;
+}
+
+.sap-search .control_field-inbound {
+    padding-left: inherit;
+    padding-right: 1.875rem;
+}
+
+.sap-search .control_field-outbound {
+    padding-right: inherit;
+    padding-left: 1.875rem;
+}
+
+.sap-booking .tabs-navigation .nav-tabs > li .nav-link.active:before { 
+    right: inherit;
+    left: -15px;
+    top:35%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); 
+}
+
+.sap-booking .nav-tabs .nav-link.active {
+    border-right:none !important;
+}
+
+
+/* Slider RTL Styles */
+/* .owl-carousel.nav-inside.nav-inside-plus .owl-nav button.owl-next {
+    left: 30px;
+    right: auto;
+} */
+
+/* Offer Carousel RTL Styles */
+
+.owl-carousel .owl-nav button.owl-next {
+     
+    right: 20px;
+  } 
+
+  
+
+  .offers .owl-stage-outer {
+    direction:ltr;
+  } 
+
+  .cities-menu {    
+    top: -12px;
+    left: inherit;    
+    right: 155px;
+}
+
+/* Home Fleet RTL Styles */
+.saptco-offer-info {    
+    left: inherit;     
+    right: 20px;  
+    text-align: right;  
+}
+
+/* About  RTL */
+
+.page-header {
+    text-align: right;
+}
+
+.breadcrumb {     
+    text-align: left !important;
+}
+
+.page-header .breadcrumb > li {
+    display: inline-block;     
+}
+
+.breadcrumb > li + li:before {    
+    content: "\f053";
+    padding: 0 5px 0 7px;
+    float: right;
+}
+
+/* Buses Results */
+
+.buses-results-header .fa-long-arrow-alt-right {
+    transform:scaleX(-1);
+}
+
+.departure span, .arrival span {
+    text-align: right;
+}
+
+/* FAQs RTL Styles */
+.accordion.accordion-modern-status > .card .card-header a:after {     
+    right: inherit;
+    left: 20px;
+}
+
+/* Contact Us RTL Styles */
+
+.list.list-icons.list-icons-style-2 li {
+    padding-left: inherit;
+    padding-right: 36px;
+}
+.list.list-icons li > [class*="fa-"]:first-child, 
+.list.list-icons li > .icons:first-child, 
+.list.list-icons li a:first-child > [class*="fa-"]:first-child, 
+.list.list-icons li a:first-child > .icons:first-child {     
+    right: 0;
+    left: inherit;
+}
+
+.list.list-icons li {
+    padding-left: inherit; 
+    padding-right: 25px;
+}
+
+ 
+
+.page-item:first-child .page-link {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+/* Manage Bookings RTL */
+.intl-tel-input .country-list {    
+    direction: rtl;
+    text-align: right;
+}
+
+.intl-tel-input .country-list .flag-box, 
+.intl-tel-input .country-list .country-name {
+    margin-right: inherit;
+    margin-left: 6px;
+}
+  
+.intl-tel-input .selected-flag .iti-flag {     
+    left: 8px;     
+}
+
+.intl-tel-input .country-list {   
+    max-width: 340px;    
+    overflow-x: hidden;
+}
+
+.intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], 
+.intl-tel-input.allow-dropdown input[type=tel] {   
+    text-align: left;
+}
+
+.intl-tel-input .country-list .country {     
+    direction: ltr;
+    text-align: left;
+}
+
+/* Search RTL Styles */
+
+.trip-summary table.trip-from-to td:first-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.trip-summary table.trip-from-to td:last-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.trip-summary td h3 sup {    
+    left: inherit;
+    right: -0.2em;
+}
+
+.modal-header .btn-close {    
+    margin: -0.5rem auto -0.5rem -0.5rem;
+}
+
+.checkbox-custom label {
+    text-align: right;
+ }
+
+
+/* Travel Results RTL Styles */
+
+.travel-results .owl-carousel .owl-stage-outer {
+    direction:ltr;
+}
+
+
+ 
+
+
+
+/* Newsletter RTL Styles */
+
+.input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: inherit;
+    margin-right: -1px;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+
+
+/* Footer RTL Styles */
+
+html .scroll-to-top {
+    right: inherit;
+    left: 10px;
+}
+
+footer .text-end .text-start {
+    text-align:right !important;  
+}
+
+/* End RTL Styles */
+
+/* RTL enhancments April 2022*/
+
+/* Apply website font to the datepicker calendar */
+/* .ui-datepicker-calendar,
+.ui-datepicker-title select:not([multiple]) {
+    font-family: "Frutiger LT Arabic 55 Roman", sans-serif !important;
+} */
+
+/* Increase the main menu font size in Arabic */
+@media (min-width: 992px) {
+    #header .header-nav.header-nav-links:not(.header-nav-light-text) nav > ul > li > a,
+    #header .header-nav.header-nav-line:not(.header-nav-light-text) nav > ul > li > a {
+        font-size: 1.2em;
+    }
+}
+
+/* increase sap search tab width */
+.sap-booking .tabs-navigation .nav-tabs li:first-child .nav-link {
+    min-width: 103px;
+}
+
+/* Cookie info styles can replace the styles at [style_shared.css] */
+
+.cookieinfo {
+    background: #f4efe6;
+    font-size: 1.24em;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    height: auto;
+    min-height: 20px;
+    z-index: 9999999999;
+    color: rgb(165 124 53);
+    line-height: 28px;
+    padding: 14px 18px;
+    bottom: 0px;
+    opacity: 1;
+    box-shadow: 0 -10px 10px rgb(0 0 0 / 10%);
+}
+
+/* fix the sidebar style in Arabic */
+ul.nav-list li ul { 
+    margin: 0 25px 0 0;    
+}
+
+ul.nav-list li a {    
+    padding: 8px 22px 8px 0;    
+}
+
+/* fix filter border radius direction */
+
+.search-trips .btn-group > .btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.search-trips .btn-group > .btn:last-child  {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+/* fix news thumnail float */
+
+ul.simple-post-list .post-image {
+    float: left;
+    margin-right: inherit;
+    float: right;
+    margin-left: 12px;
+}
+
+/* add pointer cursor to payment images */
+.payment img {
+    cursor: pointer;
+}
+
+/* footer sub menu */
+#footer ul li ul li a:before {
+    margin:0 0 0 10px;    
+}
+
+/* updates 10 November 2022 */
+
+.social-icons li a.lang-link { 
+    font-size: 1.1em !important;
+    font-family: inherit!important; 
+    line-height: 1.5 !important; 
+}
+
+/* End of updates 10 November 2022 */
